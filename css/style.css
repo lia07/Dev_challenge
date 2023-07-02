@@ -1,0 +1,79 @@
+
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:wght@500&family=Montserrat&family=Open+Sans:wght@300;400;600;700&display=swap');
+/* Global styles */
+html {
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #181719;
+  color: #FFF;
+  font-family: "Montserrat";
+}
+
+h1, h2, p {
+  
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1360px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* Header  */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 0;
+}
+
+.text-logo {
+  border: 1px solid #FFF;
+  padding: 8px;
+}
+.text-logo a{
+  font-size: 14px;
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 200;
+}
+
+.menu-navigation ul {
+  display: flex;
+}
+.menu-navigation a {
+  margin: 0 43px;
+}
+.menu-navigation a.active {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
+.menu-navigation li:last-child a {
+  margin-right: 0;
+}
+.menu a{
+    width: 57px;
+    height: 22px;
+    top: 46px;
+    left: 827;
+    border: 2px;
+    color: #FFFFFF;
+}
