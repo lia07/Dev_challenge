@@ -115,7 +115,7 @@ ul {
   margin-top: 1.05em;
 }
 
-.main__btn {
+.main-btn {
   display: flex;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
@@ -130,21 +130,21 @@ ul {
   transition: all .25s;
 }
 
-.main__btn__icon {
+.main-btn-icon {
   margin-left: .4em;
   
   transition: all .6s;
 }
 
-.main__btn:hover {
+.main-btn:hover {
   text-shadow: 0 0 2px #fff;
 }
 
-.main__btn:hover .main__btn__icon {
+.main-btn:hover .main-btn-icon {
   margin-left: .8em;
 }
 
-.main__btn:active {
+.main-btn:active {
   color: var(--gray);
 }
 
@@ -157,13 +157,13 @@ ul {
   animation-fill-mode: forwards;
 }
 
-.main__interior__image {
+.main-interior-image {
   width: 100%;
   max-width: 600px;
   border-radius: 2px;
 }
 
-.main__card {
+.main-card {
   text-align: initial;
   background-color: var(--background);
   color: var(--principal-font-color);
@@ -184,20 +184,20 @@ ul {
   box-shadow: 1px 3px 8px 0px #000;
 }
 
-.aliza__image {
+.aliza-image {
   border-radius: 50%;
   max-width: 40px;
   justify-self: flex-start;
 }
 
-.info__name {
+.info-name {
   margin: 0 0 .3em;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: .8em;
 }
 
-.info__desc {
+.info-desc {
   color: var(--gray);
   font-size: .75em;
   font-family: 'Montserrat', sans-serif;
@@ -205,7 +205,7 @@ ul {
   margin: 0;
 }
 
-.card__credits {
+.card-credits {
   grid-column: 1 / span 2;
   justify-self: flex-start;
 
@@ -258,7 +258,7 @@ ul {
 .footer .username{
   font-weight: 700; 
   text-decoration: underline;
-  text-underline-offset: 8px;
+  text-underline-offset: 2px;
   text-decoration-thickness: 1px;
 
 }
@@ -275,18 +275,18 @@ ul {
 /* MEDIA QUERIES */
 /* Mobile | Móvil */
 @media only screen and (max-width: 310px) {
-  .main__card {
+  .main-card {
       padding-right: .25em;
   }
 }
 
 @media only screen and (min-width: 374px) {
-      .main__card {
+      .main-card {
           bottom: -27%;
       }
       
       @media only screen and (min-width: 410px) {
-      .main__card {
+      .main-card {
           bottom: -23%;
       }
       
@@ -312,22 +312,22 @@ ul {
           max-width: 50%;
       }
       
-      .main__card {
+      .main-card {
           bottom: -18.5%;
       }
   }
   
 @media only screen and (min-width: 600px) {
-      .main__card {
+      .main-card {
           bottom: -15%;
           right: 13%;
       }
       
-      .info__name {
+      .info-name {
           font-size: .86em;
       }
       
-      .info__desc {
+      .info-desc {
           font-size: .8em;
       }
       
@@ -339,7 +339,7 @@ ul {
               height: 100vh;
           }
           
-          .main__card {
+          .main-card {
               right: 5%;
           }
           
@@ -359,11 +359,11 @@ ul {
       padding: 1.3em .75em 1em;
   }
   
-  .header__h1 {
+  .header-h1 {
       font-size: 1.1em;
   }
   
-  .header__nav {
+  .header-nav {
       position: relative;
       height: auto;
       width: 60%;
@@ -372,16 +372,16 @@ ul {
       align-self: flex-end;
   }
   
-  .header__icon, .nav__icon {
+  .header-icon, .nav-icon {
       display: none;
   }
   
-  .nav__list {
+  .nav-list {
       flex-direction: row;
       justify-content: space-evenly;
   }
   
-  .list__item {
+  .list-item {
       margin-bottom: .4em;
   }
   
@@ -390,7 +390,7 @@ ul {
       padding: 1em .8em 0;
   }
   
-  .main__p {
+  .main-p {
       max-width: 55%;
       font-size: 1em;
   }
@@ -400,15 +400,15 @@ ul {
   }
   
   
-  .aliza__image {
+  .aliza-image {
       max-width: 50px;
   }
   
-  .info__name {
+  .info-name {
       font-size: .95em;
   }
   
-  .card__credits {
+  .card-credits {
       font-size: 1.14em;
   }
   
@@ -422,20 +422,20 @@ ul {
   }
   
   @media only screen and (min-width: 800px) {
-      .main__card {
+      .main-card {
           right: 16%;
       }
   }
   
   @media only screen and (min-width: 900px) {
-      .main__card {
+      .main-card {
           right: 20%;
       }
   }
   
   /* iPad */
   @media only screen and (height: 1024px) {
-      .main__card {
+      .main-card {
           right: 12%;
       }
   }
@@ -453,11 +453,11 @@ ul {
       padding-top: 1.8em;
   }
   
-  .header__h1 {
+  .header-h1 {
       margin-left: 3em;
   }
   
-  .list__item {
+  .list-item {
       font-size: 1.05em;
   }
   
@@ -479,11 +479,11 @@ ul {
       line-height: 1.45em;
   }
   
-  .main__interior__image {
+  .main-interior-image {
       max-width: 650px;
   }
   
-  .main__card {
+  .main-card {
       bottom: -83px;
       right: 25px;
       padding-top: .9em;
@@ -492,7 +492,7 @@ ul {
       max-width: 400px;
   }
   
-  .aliza__image {
+  .aliza-image {
       max-width: 42px;
   }
   
@@ -516,23 +516,23 @@ ul {
           margin-top: .95em;
       }
       
-      .main__card {
+      .main-card {
           bottom: -80px;
       }
   }
   
   @media only screen and (min-width: 1200px) {
-      .main__card {
+      .main-card {
           right: 55px;
       }
   }
   
   @media only screen and (min-width: 1300px) {
-      .main__card {
+      .main-card {
           right: 60px;
       }
       
-      .main__interior__image {
+      .main-interior-image {
           max-width: 90%;
       }
   }
